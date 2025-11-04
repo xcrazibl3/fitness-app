@@ -89,13 +89,12 @@
                     </header>
 
                     <div class="meal-plan__meals">
-                        <section class="meal-plan__meal-block meal-plan__meal-block-breakfast">
-                            <div></div>
-                            <h3 class="meal-plan__meal-title">
+                        <section class="meal-block meal-block__breakfast">
+                            <h3 class="meal-block__meal-title">
                                 Breakfast
                             </h3>
 
-                            <div class="meal-plan__meal-list">
+                            <div class="meal-block__meal-list">
                                 No items yet
                             </div>
                         </section>
