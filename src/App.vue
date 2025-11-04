@@ -1,5 +1,4 @@
 <script setup>
-const test = ref("");
 </script>
 
 <template> <div>Fitness App</div> </template>

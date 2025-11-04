@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.vue --fix"
   },
   "dependencies": {
     "firebase": "^12.4.0",
@@ -14,6 +15,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.33.0",
     "postcss-html": "^1.8.0",
     "postcss-scss": "^4.0.9",
     "sass": "^1.89.1",
