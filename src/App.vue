@@ -1,7 +1,8 @@
 <script setup>
+import MealPlan from './components/MealPlan.vue'
 </script>
 
-<template> <div>Fitness App</div> </template>
+<template> <MealPlan /> </template>
 
 <style lang="scss">
 div{
