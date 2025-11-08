@@ -88,8 +88,8 @@
                         </span>
                     </header>
 
-                    <div class="meal-plan__meals">
-                        <section class="meal-block meal-block__breakfast">
+                    <section class="meal-block">
+                        <div class="meal-block__item">
                             <h3 class="meal-block__meal-title">
                                 Breakfast
                             </h3>
@@ -97,38 +97,494 @@
                             <div class="meal-block__meal-list">
                                 No items yet
                             </div>
-                        </section>
+                        </div>
 
-                        <section class="meal-plan__meal-block meal-plan__meal-block-lunch">
-                            <h3 class="meal-plan__meal-title">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
                                 Lunch
                             </h3>
 
-                            <div class="meal-plan__meal-list">
+                            <div class="meal-block__meal-list">
                                 No items yet
                             </div>
-                        </section>
+                        </div>
 
-                        <section class="meal-plan__meal-block meal-plan__meal-block-dinner">
-                            <h3 class="meal-plan__meal-title">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
                                 Dinner
                             </h3>
 
-                            <div class="meal-plan__meal-list">
+                            <div class="meal-block__meal-list">
                                 No items yet
                             </div>
-                        </section>
+                        </div>
 
-                        <section class="meal-plan__meal-block meal-plan__meal-block-snack">
-                            <h3 class="meal-plan__meal-title">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
                                 Snack
                             </h3>
 
-                            <div class="meal-plan__meal-list">
+                            <div class="meal-block__meal-list">
                                 No items yet
                             </div>
-                        </section>
-                    </div>
+                        </div>
+                    </section>
+
+                    <footer class="meal-plan__day-footer">
+                        for totals
+                        <ul class="meal-plan__totals">
+                            <li class="meal-plan__total-item meal-plan__total-item-calories">
+                                Calories 0kcal
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-protein">
+                                Protein 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-carbs">
+                                Carbs 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-fat">
+                                Fat 0g
+                            </li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article class="meal-plan__day">
+                    for day one
+                    <header class="meal-plan__day-header">
+                        <span class="meal-plan__day-name">
+                            Mon
+                        </span>
+
+                        <span class="meal-plan__day-date">
+                            01
+                        </span>
+                    </header>
+
+                    <section class="meal-block">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Breakfast
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Lunch
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Dinner
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Snack
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+                    </section>
+
+                    <footer class="meal-plan__day-footer">
+                        for totals
+                        <ul class="meal-plan__totals">
+                            <li class="meal-plan__total-item meal-plan__total-item-calories">
+                                Calories 0kcal
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-protein">
+                                Protein 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-carbs">
+                                Carbs 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-fat">
+                                Fat 0g
+                            </li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article class="meal-plan__day">
+                    for day one
+                    <header class="meal-plan__day-header">
+                        <span class="meal-plan__day-name">
+                            Mon
+                        </span>
+
+                        <span class="meal-plan__day-date">
+                            01
+                        </span>
+                    </header>
+
+                    <section class="meal-block">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Breakfast
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Lunch
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Dinner
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Snack
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+                    </section>
+
+                    <footer class="meal-plan__day-footer">
+                        for totals
+                        <ul class="meal-plan__totals">
+                            <li class="meal-plan__total-item meal-plan__total-item-calories">
+                                Calories 0kcal
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-protein">
+                                Protein 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-carbs">
+                                Carbs 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-fat">
+                                Fat 0g
+                            </li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article class="meal-plan__day">
+                    for day one
+                    <header class="meal-plan__day-header">
+                        <span class="meal-plan__day-name">
+                            Mon
+                        </span>
+
+                        <span class="meal-plan__day-date">
+                            01
+                        </span>
+                    </header>
+
+                    <section class="meal-block">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Breakfast
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Lunch
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Dinner
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Snack
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+                    </section>
+
+                    <footer class="meal-plan__day-footer">
+                        for totals
+                        <ul class="meal-plan__totals">
+                            <li class="meal-plan__total-item meal-plan__total-item-calories">
+                                Calories 0kcal
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-protein">
+                                Protein 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-carbs">
+                                Carbs 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-fat">
+                                Fat 0g
+                            </li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article class="meal-plan__day">
+                    for day one
+                    <header class="meal-plan__day-header">
+                        <span class="meal-plan__day-name">
+                            Mon
+                        </span>
+
+                        <span class="meal-plan__day-date">
+                            01
+                        </span>
+                    </header>
+
+                    <section class="meal-block">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Breakfast
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Lunch
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Dinner
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Snack
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+                    </section>
+
+                    <footer class="meal-plan__day-footer">
+                        for totals
+                        <ul class="meal-plan__totals">
+                            <li class="meal-plan__total-item meal-plan__total-item-calories">
+                                Calories 0kcal
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-protein">
+                                Protein 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-carbs">
+                                Carbs 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-fat">
+                                Fat 0g
+                            </li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article class="meal-plan__day">
+                    for day one
+                    <header class="meal-plan__day-header">
+                        <span class="meal-plan__day-name">
+                            Mon
+                        </span>
+
+                        <span class="meal-plan__day-date">
+                            01
+                        </span>
+                    </header>
+
+                    <section class="meal-block">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Breakfast
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Lunch
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Dinner
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Snack
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+                    </section>
+
+                    <footer class="meal-plan__day-footer">
+                        for totals
+                        <ul class="meal-plan__totals">
+                            <li class="meal-plan__total-item meal-plan__total-item-calories">
+                                Calories 0kcal
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-protein">
+                                Protein 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-carbs">
+                                Carbs 0g
+                            </li>
+
+                            <li class="meal-plan__total-item meal-plan__total-item-fat">
+                                Fat 0g
+                            </li>
+                        </ul>
+                    </footer>
+                </article>
+
+                <article class="meal-plan__day">
+                    for day one
+                    <header class="meal-plan__day-header">
+                        <span class="meal-plan__day-name">
+                            Mon
+                        </span>
+
+                        <span class="meal-plan__day-date">
+                            01
+                        </span>
+                    </header>
+
+                    <section class="meal-block">
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Breakfast
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Lunch
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Dinner
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+
+                        <div class="meal-block__item">
+                            <h3 class="meal-block__meal-title">
+                                Snack
+                            </h3>
+
+                            <div class="meal-block__meal-list">
+                                No items yet
+                            </div>
+                        </div>
+                    </section>
 
                     <footer class="meal-plan__day-footer">
                         for totals
@@ -152,6 +608,26 @@
                     </footer>
                 </article>
             </div>
+        </section>
+
+        <section class="meal-notes">
+            <h2 class="meal-notes__title">
+                Notes
+            </h2>
+
+            <ul class="meal-notes__list">
+                <li class="meal-notes__list-item">
+                    $placeholder_note
+                </li>
+
+                <li class="meal-notes__list-item">
+                    $placeholder_note
+                </li>
+
+                <li class="meal-notes__list-item">
+                    $placeholder_note
+                </li>
+            </ul>
         </section>
     </section>
 </template>
