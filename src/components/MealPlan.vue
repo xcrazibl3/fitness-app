@@ -45,7 +45,6 @@
             </h2>
 
             <div class="meal-plan__week-days">
-                weekdays labels
                 <div class="meal-plan__week-day data-day">
                     Mon
                 </div>
@@ -659,9 +658,61 @@
 
 <style lang="scss" >
 .meal-plan{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    &__header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap:5px;
+    }
+
+    &__title{
+        font-size: 32px;
+        font-weight: medium;
+    }
+
+    &__subtitle{
+        color: green;
+        font-size:16px
+    }
+
+    &__week-nav{
+        // bg-color:red;
+    }
+
+    &__targets{
+        padding:12px 16px;
+        border-radius: 6px;
+        background-color: lightgreen;
+    }
+
+    &__target-group{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__week-days,
     &__days{
         display:grid;
+        background-color: red;
         grid-template-columns: repeat(7, 1fr);
+    }
+
+    .meal-block{
+        &__meal-title{
+            font-size:16px;
+        }
     }
 }
 </style>
