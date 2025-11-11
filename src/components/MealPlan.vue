@@ -629,6 +629,31 @@
                 </li>
             </ul>
         </section>
+
+        <footer class="meal-plan__footer">
+            <div class="meal-plan__week-summary">
+                Weekly summary
+            </div>
+
+            <ul class="meal-plan__week-totals">
+                <li class="meal-plan__week-totals-item">
+                    $calories
+                </li>
+
+                <li class="meal-plan__week-totals-item">
+                    $protein
+                </li>
+
+                <li class="meal-plan__week-totals-item">
+                    $carbs
+                </li>
+
+                <li class="meal-plan__week-totals-item">
+                    $fat
+                </li>
+            </ul>
+
+        </footer>
     </section>
 </template>
 
