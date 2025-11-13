@@ -705,7 +705,7 @@
     &__week-days,
     &__days{
         display:grid;
-        background-color: red;
+        background-color: $color-green;
         grid-template-columns: repeat(7, 1fr);
     }
 
