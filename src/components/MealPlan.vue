@@ -44,47 +44,12 @@
                 This week
             </h2>
 
-            <div class="meal-plan__week-days">
-                <div class="meal-plan__week-day data-day">
-                    Mon
-                </div>
-
-                <div class="meal-plan__week-day data-day">
-                    Tue
-                </div>
-
-                <div class="meal-plan__week-day data-day">
-                    Wed
-                </div>
-
-                <div class="meal-plan__week-day data-day">
-                    Thu
-                </div>
-
-                <div class="meal-plan__week-day data-day">
-                    Fri
-                </div>
-
-                <div class="meal-plan__week-day data-day">
-                    Sat
-                </div>
-
-                <div class="meal-plan__week-day data-day">
-                    Sun
-                </div>
-            </div>
-
             <div class="meal-plan__days">
                 <article class="meal-plan__day">
-                    for day one
                     <header class="meal-plan__day-header">
-                        <span class="meal-plan__day-name">
+                        <h3 class="meal-plan__day-title">
                             Mon
-                        </span>
-
-                        <span class="meal-plan__day-date">
-                            01
-                        </span>
+                        </h3>
                     </header>
 
                     <section class="meal-block">
@@ -152,15 +117,10 @@
                 </article>
 
                 <article class="meal-plan__day">
-                    for day one
                     <header class="meal-plan__day-header">
-                        <span class="meal-plan__day-name">
+                        <h3 class="meal-plan__day-title">
                             Mon
-                        </span>
-
-                        <span class="meal-plan__day-date">
-                            01
-                        </span>
+                        </h3>
                     </header>
 
                     <section class="meal-block">
@@ -228,15 +188,10 @@
                 </article>
 
                 <article class="meal-plan__day">
-                    for day one
                     <header class="meal-plan__day-header">
-                        <span class="meal-plan__day-name">
+                        <h3 class="meal-plan__day-title">
                             Mon
-                        </span>
-
-                        <span class="meal-plan__day-date">
-                            01
-                        </span>
+                        </h3>
                     </header>
 
                     <section class="meal-block">
@@ -304,15 +259,10 @@
                 </article>
 
                 <article class="meal-plan__day">
-                    for day one
                     <header class="meal-plan__day-header">
-                        <span class="meal-plan__day-name">
+                        <h3 class="meal-plan__day-title">
                             Mon
-                        </span>
-
-                        <span class="meal-plan__day-date">
-                            01
-                        </span>
+                        </h3>
                     </header>
 
                     <section class="meal-block">
@@ -380,15 +330,10 @@
                 </article>
 
                 <article class="meal-plan__day">
-                    for day one
                     <header class="meal-plan__day-header">
-                        <span class="meal-plan__day-name">
+                        <h3 class="meal-plan__day-title">
                             Mon
-                        </span>
-
-                        <span class="meal-plan__day-date">
-                            01
-                        </span>
+                        </h3>
                     </header>
 
                     <section class="meal-block">
@@ -456,15 +401,10 @@
                 </article>
 
                 <article class="meal-plan__day">
-                    for day one
                     <header class="meal-plan__day-header">
-                        <span class="meal-plan__day-name">
+                        <h3 class="meal-plan__day-title">
                             Mon
-                        </span>
-
-                        <span class="meal-plan__day-date">
-                            01
-                        </span>
+                        </h3>
                     </header>
 
                     <section class="meal-block">
@@ -532,15 +472,10 @@
                 </article>
 
                 <article class="meal-plan__day">
-                    for day one
                     <header class="meal-plan__day-header">
-                        <span class="meal-plan__day-name">
+                        <h3 class="meal-plan__day-title">
                             Mon
-                        </span>
-
-                        <span class="meal-plan__day-date">
-                            01
-                        </span>
+                        </h3>
                     </header>
 
                     <section class="meal-block">
@@ -682,7 +617,7 @@
     }
 
     &__subtitle{
-        color: green;
+        color: $color-deep-jade;
         font-size:16px
     }
 
@@ -693,7 +628,7 @@
     &__targets{
         padding:12px 16px;
         border-radius: 6px;
-        background-color: lightgreen;
+        background-color:  $color-pastel-green;
     }
 
     &__target-group{
@@ -702,11 +637,19 @@
         align-items: center;
     }
 
-    &__week-days,
     &__days{
         display:grid;
-        background-color: $color-green;
-        grid-template-columns: repeat(7, 1fr);
+        width: 375px;
+        margin-top:20px;
+        padding: 10px;
+        background-color: $color-warm-peach;
+        grid-template-columns: 1fr;
+        gap:30px;
+    }
+
+    &__day-title{
+        color: $color-forest-green;
+        font-size:20px;
     }
 
     .meal-block{
