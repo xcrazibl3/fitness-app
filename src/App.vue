@@ -1,10 +1,11 @@
 <script setup>
+import MealPlan from './components/MealPlan.vue'
 </script>
 
-<template> <div>Fitness App</div> </template>
+<template> <MealPlan /> </template>
 
 <style lang="scss">
-div{
+.test{
     display:flex;
     margin:20px 40px 20px 30px;
     padding-top: 10px;
